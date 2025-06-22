@@ -12,7 +12,11 @@ This repository currently contains:
 
 - `index.html` – Main HTML file
 - `style.css` – CSS file for styling (if any)
+- - `loco.css` – CSS file smooth scrolling (if any)
 - `script.js` – JavaScript file (if any)
+- [ I HAVE COMPLETED THE PROJECT WITH Sheryians Coding School ][https://www.youtube.com/@sheryians/videos ]
+- THANK YOU SIR...
+
 
 ## 💡 What I’m Learning
 
