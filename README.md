@@ -17,6 +17,7 @@ This repository currently contains:
 - [ I HAVE COMPLETED THE PROJECT WITH Sheryians Coding School ][https://www.youtube.com/@sheryians/videos ]
 - THANK YOU SIR...
 
+site- https://subhodip-007.github.io/FRONT-END-PROJECT/ (for preview)
 
 ## 💡 What I’m Learning
 
