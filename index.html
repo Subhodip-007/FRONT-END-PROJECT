@@ -2,112 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="loco.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cynthia Ugwu - Product Designer</title>
+
+
+  <link rel="stylesheet" href="loco.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+ 
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
 </head>
 
 <body>
-    <div id="minicircle"></div>
-    <div id="main">
-         <div id="hero">
-            <div id="nav">
-                <a href="#">Cynthia Ugwu</a>
-                <h4>MENU+</h4>
-                <div id="nav-overlay">
-    <nav>
-        <ul>
+  <div id="minicircle" aria-hidden="true"></div>
+
+  <main id="main">
+    <section id="hero">
+      <header id="nav">
+        <a href="#">Cynthia Ugwu</a>
+        <button id="menu-toggle" aria-expanded="false" aria-controls="nav-overlay">MENU+</button>
+      </header>
+
+      <div id="nav-overlay" hidden>
+        <nav>
+          <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">More Info</a></li>
-        </ul>
-        <span id="close-nav">×</span>
-    </nav>
-</div>
-            </div>
-            <div id="heading">
-                <div class="bounding">
-                    <h1 class="boundingelem">Product</h1>
-                </div>
-                <div class="blocktext">
-                    <div class="bounding">
-                        <h1 class="boundingelem" id="secondh1">Designer</h1>
-                    </div>
-                    <div class="bounding">
-                        <h5 class="boundingelem">Based in toronto</h5>
-                    </div>
-                </div>
-            </div>
-            <div id="chhotiheadings">
-                <div class="bounding">
-                    <h5 class="boundingelem">available for freelance</h5>
-                </div>
-                <div class="bounding">
-                    <h5 class="boundingelem">work from may 23'</h5>
-                </div>
-            </div>
-            <div id="herofooter">
-                <a href="#">previously worked at yml <i class="ri-arrow-right-up-line"></i></a>
-                <a href="#">protopie ambassador <i class="ri-arrow-right-up-line"></i></a>
-                <div id="iconset">
-                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
-                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
-                </div>
-            </div>
-        </div> 
-        <div id="second">
-            <div class="elem">
-                <img src="https://images.unsplash.com/photo-1744381582488-b20ab7903239?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDR8fHxlbnwwfHx8fHw%3D" alt="">
-                <h1>The Plug</h1>
-                <h5>2022</h5>
-            </div>
-            <div class="elem">
-                <img src="https://images.unsplash.com/photo-1749567026467-20a96b0ccca3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMzJ8fHxlbnwwfHx8fHw%3D" alt="">
-                <h1>ixperience</h1>
-                <h5>2022</h5>
-            </div>
-            <div class="elem elemlast">
-                <img src="https://images.unsplash.com/photo-1749909551094-a03dee3ff334?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDB8fHxlbnwwfHx8fHw%3D" alt="">
-                <h1>hudu</h1>
-                <h5>2022</h5>
-            </div>
-        </div>
-        <div id="about">
-            <img src="https://i.pinimg.com/736x/8b/2b/9c/8b2b9ccf48a84dd468340fdc2d18f74d.jpg" alt="">
-            <div id="textabout">
-                <h5>(ABout me)</h5>
-                <p>I'm a product designer with a passion for creating products that not only look good but also solve
-                    real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix
-                    series or playing video games. My design philosophy is simple: make it visually appealing,
-                    functional, and bring a smile to people's faces. I'm the designer you want on your team if you want
-                    to make people say 'I need that in my life!'.</p>
-                <a href="">Let's talk</a>
-            </div>
-        </div>
-        <div id="subscribe">
-            <h5>(forgot to mention)</h5>
-            <h3>subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i></h3>
-        </div>
-        <div id="footer">
-            <div id="footerleft">
-                <h5>2023 &copy;</h5>
-                <h5>0:05 AM EST</h5>
-            </div>
-            <div id="footerright">
-                <a href="#">dribbble</a><a href="#">instagram</a><a href="#">linkedin</a><a href="#">twitter</a>
-            </div>
-        </div>
-    </div>
+          </ul>
+          <button id="close-nav" aria-label="Close navigation">×</button>
+        </nav>
+      </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
-        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-    <script src="script.js"></script>
+      <div id="heading">
+        <div class="bounding">
+          <h1 class="boundingelem">Product</h1>
+        </div>
+        <div class="blocktext">
+          <div class="bounding">
+            <h1 class="boundingelem" id="secondh1">Designer</h1>
+          </div>
+          <div class="bounding">
+            <h5 class="boundingelem">Based in Toronto</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="chhotiheadings">
+        <div class="bounding">
+          <h5 class="boundingelem">Available for freelance</h5>
+        </div>
+        <div class="bounding">
+          <h5 class="boundingelem">Work from May '23</h5>
+        </div>
+      </div>
+
+      <footer id="herofooter">
+        <a href="#">Previously worked at YML <i class="ri-arrow-right-up-line"></i></a>
+        <a href="#">ProtoPie ambassador <i class="ri-arrow-right-up-line"></i></a>
+        <div id="iconset">
+          <div class="circle"><i class="ri-arrow-down-line"></i></div>
+          <div class="circle"><i class="ri-arrow-down-line"></i></div>
+        </div>
+      </footer>
+    </section>
+
+    <section id="second">
+      <article class="elem">
+        <img src="https://images.unsplash.com/photo-1744381582488-b20ab7903239?w=600&auto=format&fit=crop&q=60" alt="The Plug Project Image">
+        <h1>The Plug</h1>
+        <h5>2022</h5>
+      </article>
+      <article class="elem">
+        <img src="https://images.unsplash.com/photo-1749567026467-20a96b0ccca3?w=600&auto=format&fit=crop&q=60" alt="Ixperience Project Image">
+        <h1>Ixperience</h1>
+        <h5>2022</h5>
+      </article>
+      <article class="elem elemlast">
+        <img src="https://images.unsplash.com/photo-1749909551094-a03dee3ff334?w=600&auto=format&fit=crop&q=60" alt="Hudu Project Image">
+        <h1>Hudu</h1>
+        <h5>2022</h5>
+      </article>
+    </section>
+
+    <section id="about">
+      <img src="https://i.pinimg.com/736x/8b/2b/9c/8b2b9ccf48a84dd468340fdc2d18f74d.jpg" alt="Portrait of Cynthia Ugwu">
+      <div id="textabout">
+        <h5>(About me)</h5>
+        <p>I'm a product designer with a passion for creating products that not only look good but also solve real problems...</p>
+        <a href="#">Let's talk</a>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <h5>(Forgot to mention)</h5>
+      <h3>Subscribe to my YouTube channel <i class="ri-arrow-right-up-line"></i></h3>
+    </section>
+
+    <footer id="footer">
+      <div id="footerleft">
+        <h5>2023 &copy;</h5>
+        <h5>0:05 AM EST</h5>
+      </div>
+      <div id="footerright">
+        <a href="#">Dribbble</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+  </main>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>
